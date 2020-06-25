@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+  --blue: #807FCB;
+  --black: #000;
+  --gray: #525f6b;
+  --dark-gray: #3c3c4a;
+  --white: #f5f5f5;
+
+  --bg-color: var(--dark-gray);
+}
+
+body {
+  align-items: center;
+  background-color: var(--bg-color);
+  box-sizing: border-box;
+  color: var(--gray);
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.container {
+  background-color: var(--white);
+  border-bottom: 5px solid var(--blue);
+  border-radius: .75rem;
+  padding: 2rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  padding: 1rem;
+}
+
+.logo {
+  margin: 5px;
+  height: 50px;
+  width: auto;
+}
+
+.titulo {
+  font-weight: bold;
+  color: var(--blue);
+  font-size: 4rem;
+  text-transform: uppercase;
+
+}
+
+.conclusao {
+  margin: 2rem 1rem;
+}
+
+.aluno {
+    color: var(--blue);
+    font-size: 2rem;
+    font-weight: light;
+    margin-bottom: 1rem;
+}
+
+.conclusao-texto {
+  margin-bottom: 1rem;
+}
+
+.conclusao-link {
+  color: var(--blue);
+}
+
+iframe {
+  min-width: 80%;
+  min-height: 40vh;
+
+}
+.assinaturas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.assinatura-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.assinatura {
+  border-bottom: 2px solid var(--dark-gray);
+  margin-bottom: 10px;
+  max-height: 30px;
+  padding-bottom: 5px;
+}
+
+.assinatura-nome {
+  text-decoration: none;
+  color: inherit;
+}
