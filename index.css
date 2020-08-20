@@ -67,6 +67,7 @@ body {
 
 .conclusao-texto {
   margin-bottom: 1rem;
+  max-width: 1000px;
 }
 
 .conclusao-link {
